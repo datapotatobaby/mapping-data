@@ -1,4 +1,4 @@
-## Exercises in Loading, Manipulating, and Saving JSON Data in Python and Pandas ##
+# Exercises in Loading, Manipulating, and Saving JSON Data in Python and Pandas
 
 This exercise is part of the Coursera course: [Python, Bash and SQL Essentials for Data Engineering Specialization](https://www.coursera.org/specializations/python-bash-sql-data-engineering-duke)
 
@@ -29,7 +29,7 @@ I have added my work and explorations, along with commentary there.
 
 There's so much that we can do with Python's Pandas library for data manipulation. But, I'd like to explore some library-independent solutions to the tasks first. Then we will do it again with Pandas.
 
-# Filtering Without Pandas, and Writing to JSON #
+## Filtering Without Pandas, and Writing to JSON
 
 **My Goals**
 1. Work with filtering text 
@@ -39,12 +39,12 @@ There's so much that we can do with Python's Pandas library for data manipulatio
     - Create a dictionary of wines ranked above 96 points. 
     - Save it as a new JSON file.
 
-# Filtering Using Pandas, and Writing to JSON #
+## Filtering Using Pandas, and Writing to JSON
 
 1. Filter the dataframe to show us only Rose wines. 
 2. Convert it to a dictionary type using `df.to_dict()`.
 3. Save the dictionary to a JSON file.
 4. Go further and explore the data even more, seeing if there's any improvements that can be made on the dataset according to my own experience in the wine industry.
 
-## Questions or Issues?
+### Questions or Issues?
 Please use the [Issues](/../../issues) tab to report any issues or ask questions. Any feedback is welcome!
